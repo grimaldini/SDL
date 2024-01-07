@@ -26,7 +26,7 @@
 #error SDL for macOS must be built with a 10.9 SDK or above.
 #endif /* MAC_OS_X_VERSION_MAX_ALLOWED < 1090 */
 
-#include <float.h> /* For FLT_MAX */
+#include <float.h> // For FLT_MAX
 #import <QuartzCore/QuartzCore.h>
 
 #include "../../events/SDL_dropevents_c.h"
@@ -3210,4 +3210,4 @@ int SDL_SetmacOSAnimationCallback(SDL_Window *window, int interval, SDL_macOSAni
     return 0;
 }
 
-#endif /* SDL_VIDEO_DRIVER_COCOA */
+#endif // SDL_VIDEO_DRIVER_COCOA
