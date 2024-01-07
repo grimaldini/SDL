@@ -820,6 +820,7 @@
 #define SDL_SetWindowTitle SDL_SetWindowTitle_REAL
 #define SDL_SetWindowsMessageHook SDL_SetWindowsMessageHook_REAL
 #define SDL_SetX11EventHook SDL_SetX11EventHook_REAL
+#define SDL_SetmacOSAnimationCallback SDL_SetmacOSAnimationCallback_REAL
 #define SDL_SetiOSAnimationCallback SDL_SetiOSAnimationCallback_REAL
 #define SDL_SetiOSEventPump SDL_SetiOSEventPump_REAL
 #define SDL_ShowAndroidToast SDL_ShowAndroidToast_REAL

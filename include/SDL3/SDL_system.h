@@ -188,6 +188,14 @@ extern SDL_DECLSPEC int SDLCALL SDL_SetLinuxThreadPriorityAndPolicy(Sint64 threa
 #endif /* SDL_PLATFORM_LINUX */
 
 /*
+ * Platform specific functions for macOS
+ */
+#ifdef SDL_PLATFORM_MACOS
+typedef void (SDLCALL *SDL_macOSAnimationCallback)(void *userdata);
+extern SDL_DECLSPEC int SDLCALL SDL_SetmacOSAnimationCallback(SDL_Window * window, int interval, SDL_macOSAnimationCallback callback, void *callbackParam);
+#endif /* __MACOS__ */
+
+/*
  * Platform specific functions for iOS
  */
 #ifdef SDL_PLATFORM_IOS

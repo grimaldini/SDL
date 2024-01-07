@@ -795,6 +795,7 @@ SDL3_0.0.0 {
     SDL_SetWindowTitle;
     SDL_SetWindowsMessageHook;
     SDL_SetX11EventHook;
+    SDL_SetmacOSAnimationCallback;
     SDL_SetiOSAnimationCallback;
     SDL_SetiOSEventPump;
     SDL_ShowAndroidToast;
